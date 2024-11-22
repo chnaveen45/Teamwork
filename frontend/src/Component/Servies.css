@@ -107,3 +107,34 @@
     max-height: 448px;
   }
 }
+
+
+.dd {
+  padding: 50px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  font-family: inria serif;
+}
+
+.dd:hover {
+  background: #014CA6;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .dd {
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+.dd {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+  }
+}
