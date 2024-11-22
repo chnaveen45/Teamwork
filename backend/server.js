@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-const mongoURI = "https://vishwasri-technology-backend.onrender.com"; 
+const mongoURI = "mongodb://127.0.0.1:27017/contactForm"; 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
