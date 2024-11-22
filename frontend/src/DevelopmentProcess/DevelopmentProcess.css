@@ -1,0 +1,137 @@
+.development-process {
+    height: 100vh;
+    position: relative;
+    font-family: Arial, sans-serif;
+    display: flex; 
+    flex-direction: row; 
+    align-items: flex-start; 
+    gap: 20px; 
+    margin: 50px auto;
+    /* width:-700% */
+  }
+  
+  /* .title {
+    font-size: 2.5rem;
+    color: #1a1a69;
+    margin-top: -2%;
+   
+    text-align: center; 
+    width:250%;
+    margin-bottom: '10%';
+  } */
+  .title {
+    font-size: 2.5rem;
+    color: #1a1a69;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -26%; /* Remove default margins for precise centering */
+    width: auto; /* Let the width adjust naturally to the content */
+  }
+  
+  
+  
+
+  .process-diagram {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    display: grid;
+    gap: 30px;
+    padding-left: 30%;
+  }
+  
+ 
+  .process-box {
+    width: 280px;
+    height: 180px;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    margin-left: 15%;
+    margin-right: -20%;
+   
+  }
+  
+  .corner-box h3 {
+    font-size: 1.2rem;
+    color: #002f87;
+    margin-bottom: 10px;
+  }
+  
+  .corner-box p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #555;
+  }
+  
+  /* Specific box positions */
+  .top-left {
+    top: 0;
+    left: 10px;
+  }
+  
+  .top-right {
+    top: 0;
+    right: 0;
+  }
+  
+  .center-box {
+    width: 280px;
+    height: 180px;
+    padding: 5px;
+    margin-left: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  
+  .center-box h3 {
+    font-size: 1.2rem;
+    color: hsl(219, 100%, 26%);
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .center-box p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #555;
+    margin-left: 10px;
+  }
+  
+  .bottom-left {
+    bottom: 0;
+    left: 0;
+  }
+  
+  .bottom-right {
+    bottom: 0;
+    right: 0;
+  }
+  
+  /* Right side image */
+  .side-image img {
+  width: 430px;
+    height: 550px;
+   
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-right: -10%;
+    margin-left: 50%;
+    margin-bottom: 20%;
+  }
+
+
+
+  
