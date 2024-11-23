@@ -25,8 +25,8 @@ function Servies() {
 
         </div>
       </div>
-
-      <img src={serve} alt='Service' className="responsive-img" />
+  
+    <p className='responsive-img'></p>
 
 
 
