@@ -6,7 +6,7 @@
   margin-top: 0%;
   position: relative;
   opacity: 0.7;
-
+ z-index:-1;
 }
 .nav-right {
   display: flex;
@@ -30,7 +30,7 @@
 
 .ll {
   position: absolute;
-  z-index: 1;
+  
   width: 730px;
   height: 296px;
   gap: 0px;
