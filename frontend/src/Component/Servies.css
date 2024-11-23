@@ -119,20 +119,20 @@
   font-family: inria serif;
 }
 
-.dd:hover {
+.ss:hover {
   background: #014CA6;
   border-radius: 6px;
 }
 
 @media (max-width: 768px) {
-  .dd {
+  .ss {
     padding: 10px 0;
     text-align: center;
   }
 }
 
 @media (max-width: 480px) {
-.dd {
+.ss {
     width: 100%;
     padding: 15px 0;
     font-size: 18px;
