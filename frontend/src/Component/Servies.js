@@ -26,12 +26,12 @@ function Servies() {
         </div>
       </div>
 
-      // <img src={serve} alt='Service' className="responsive-img" />
+      <img src={serve} alt='Service' className="responsive-img" />
 
 
 
 
-      // <img src={dd} alt='service1' className='rr'></img>
+      <img src={dd} alt='service1' className='rr'></img>
 
 
       <div className="text-overlay-container" style={{ marginTop: '15%' }}> <div className="hh"> <div className="overlay"></div> <h1 style={{ fontSize: '50px', fontFamily: 'inria serif', color: '#22177A', paddingBottom: '10px', marginLeft: '70px' }}><b>Web Development</b></h1> <p className="er" style={{ paddingTop: '10px', fontFamily: 'inria serif' }}>With a focus on functionality and user experience, our web development team creates responsive, secure, and visually appealing websites. From e-commerce platforms to corporate websites, we ensure that each site reflects the brand’s identity while meeting the latest web standards and technological advancements.</p> </div> </div>
