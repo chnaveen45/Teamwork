@@ -16,10 +16,10 @@ function Servies() {
 
         <p>Solutions crafted with care. Your success, our purpose.</p>
         <div className="nav-right" style={{ marginTop: '-210px', marginLeft: '500px' }}>
-          <Link to="/home" className='dd' >Home</Link>
-          <Link to="/servies" className='dd'>Service</Link>
-          <Link to="/aboutus" className='dd'>AboutUs</Link>
-          <Link to="/contactus" className='dd'>ContactUs</Link>
+          <Link to="/home" className='ss' >Home</Link>
+          <Link to="/servies" className='ss'>Service</Link>
+          <Link to="/aboutus" className='ss'>AboutUs</Link>
+          <Link to="/contactus" className='ss'>ContactUs</Link>
 
 
 
