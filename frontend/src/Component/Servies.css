@@ -21,6 +21,9 @@
   opacity: 0px;
   margin-left: 26%
 }
+.dd{
+  z-index:1;
+}
 
 .ll {
   position: absolute;
