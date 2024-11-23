@@ -109,7 +109,7 @@
 }
 
 
-.ss {
+.sy {
   padding: 50px;
   text-decoration: none;
   color: white;
@@ -119,20 +119,20 @@
   font-family: inria serif;
 }
 
-.ss:hover {
+.sy:hover {
   background: #014CA6;
   border-radius: 6px;
 }
 
 @media (max-width: 768px) {
-  .ss {
+  .sy {
     padding: 10px 0;
     text-align: center;
   }
 }
 
 @media (max-width: 480px) {
-.ss {
+.sy {
     width: 100%;
     padding: 15px 0;
     font-size: 18px;
