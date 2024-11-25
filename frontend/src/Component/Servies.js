@@ -10,29 +10,7 @@ function Servies() {
   return (
     <div>
 
-     //  <div className='ll'>
-     //    <h1 className='mb'>Our Expertise<br></br> Your Solutions</h1>
-
-
-     //    <p style={{color:'white',marginLeft:'28%'}}>Solutions crafted with care. Your success, our purpose.</p>
-     //    <div className="nav-right">
-     //      <Link to="/home" className='ss' >Home</Link>
-     //      <Link to="/servies" className='ss'>Service</Link>
-     //      <Link to="/aboutus" className='ss'>AboutUs</Link>
-     //      <Link to="/contactus" className='ss'>ContactUs</Link>
-
-
-
-     //    </div>
-     //  </div>
-
-     // <p className='responsive-img'></p>
-
-
-
-
-     //  <img src={dd} alt='service1' className='rr'></img>
-
+   
 
       <div className="text-overlay-container" style={{ marginTop: '15%' }}> <div className="hh"> <div className="overlay"></div> <h1 style={{ fontSize: '50px', fontFamily: 'inria serif', color: '#22177A', paddingBottom: '10px', marginLeft: '70px' }}><b>Web Development</b></h1> <p className="er" style={{ paddingTop: '10px', fontFamily: 'inria serif' }}>With a focus on functionality and user experience, our web development team creates responsive, secure, and visually appealing websites. From e-commerce platforms to corporate websites, we ensure that each site reflects the brand’s identity while meeting the latest web standards and technological advancements.</p> </div> </div>
       <div className="text-overlay-container" style={{ marginTop: '5%' }}> <div className="ff"> <div className="overlay"></div> <h1 style={{ fontSize: '50px', fontFamily: 'inria serif', color: '#22177A', paddingBottom: '10px', marginLeft: '70px' }}><b>App Development</b></h1> <p className="er" style={{ paddingTop: '10px', fontFamily: 'inria serif' }}>We specialize in developing mobile applications that are user-friendly, efficient, and scalable. From concept to deployment, our app development process is tailored to meet each client’s unique needs, delivering high-quality applications for Android, iOS, and cross-platform solutions that drive user engagement and satisfaction.</p> </div> </div>
