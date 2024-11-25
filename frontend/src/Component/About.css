@@ -23,3 +23,57 @@ color: '#0000B3';
     margin-top: 10%;
     margin-left: 30%;
   }
+   
+.oops {
+  padding: 50px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  font-family: inria serif;
+}
+
+.oops:hover {
+  background: #014CA6;
+  border-radius: 6px;
+}
+
+.asdf{
+  margin-top: 15px;
+  display: flex;
+  padding-left: 70%;
+  margin-top: 5px;
+}
+.bbng{
+  color: white;
+
+  font-family: inria serif;
+  font-size: 50px;
+  margin-left: 200px;
+  
+  /* z-index: 1; */
+
+}
+.lff
+
+{
+
+  width: 730px;
+  height: 296px;
+ 
+  border-radius: 0px 200px 200px 0px;
+ 
+  background: #0000B3;
+ z-index: -1;
+}
+.backgrounds{
+  background-image: url('../Navbar/Picture/mk.png');
+  background-size: cover;
+  
+  height: 630px;  
+  width: 100vw;   
+  margin: 0;      
+  padding: 0;     
+  overflow: hidden;
+}
