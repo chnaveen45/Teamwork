@@ -37,7 +37,7 @@ function Nav() {
 
         </div>
         <div className="text-container"> <h1>Empowering The Businesses<br></br>
-          Through The Technology</h1> <br></br><p>At Vishwasri Technologies, we empower businesses by leveraging cutting-edge <br></br> technology to drive growth and innovation. Our custom software solutions are <br></br> designed to streamline operations, enhance efficiency, and unlock new opportunities.</p> </div>
+          Through The Technology</h1> <br></br><p style={{fontSize:'17px',}}>At Vishwasri Technologies, we empower businesses by leveraging cutting-edge <br></br> technology to drive growth and innovation. Our custom software solutions are <br></br> designed to streamline operations, enhance efficiency, and unlock new opportunities.</p> </div>
 
       </div>
       <div className="container" style={{ minHeight: '100vh', width: '100%' }}>
