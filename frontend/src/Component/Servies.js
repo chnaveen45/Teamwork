@@ -26,11 +26,12 @@ function Servies() {
           <Link to="/aboutus" className='oopt'>AboutUs</Link>
           <Link to="/contactus" className='oopt'>ContactUs</Link>
           </div>
+      <div className='qm'></div>
         </div>
         
       </div>
       {/* < img src={dd} alt='service1' className='rry'></img> */}
-      <div className='qm'></div>
+  
 
 
       <div className="text-overlay-container" style={{ marginTop: '8%' }}> <div className="hh"> <div className="overlay"></div> <h1 style={{ fontSize: '50px', fontFamily: 'inria serif', color: '#22177A', paddingBottom: '10px', marginLeft: '70px' }}><b>Web Development</b></h1> <p className="er" style={{ paddingTop: '10px', fontFamily: 'inria serif' }}>With a focus on functionality and user experience, our web development team creates responsive, secure, and visually appealing websites. From e-commerce platforms to corporate websites, we ensure that each site reflects the brand’s identity while meeting the latest web standards and technological advancements.</p> </div> </div>
