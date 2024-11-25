@@ -1,7 +1,8 @@
 
 
-.rry {
-
+.qm {
+  background-image: url('../Navbar/Picture/serveimg1.png');
+  background-size: cover;
 
   width: 824px;
   height: 300px;
@@ -12,6 +13,7 @@
   opacity: 0px;
   margin-left: 46.9%;
   margin-top: -10%;
+  z-index: -5;
 } 
 
 .text-overlay-container {
