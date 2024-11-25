@@ -1,5 +1,5 @@
 import React from 'react';
-import serve from '../Navbar/Picture/serveimg.png';
+// import serve from '../Navbar/Picture/serveimg.png';
 import './Servies.css'
 import dd from '../Navbar/Picture/serveimg1.png';
 import { Link } from 'react-router-dom'
@@ -14,19 +14,19 @@ function Servies() {
         <h1 className='mb'>Our Expertise<br></br> Your Solutions</h1>
 
 
-        <p>Solutions crafted with care. Your success, our purpose.</p>
-        <div className="nav-right" style={{ marginTop: '-210px', marginLeft: '500px' }}>
-          <Link to="/home" className='sy' >Home</Link>
-          <Link to="/servies" className='sy'>Service</Link>
-          <Link to="/aboutus" className='sy'>AboutUs</Link>
-          <Link to="/contactus" className='sy'>ContactUs</Link>
+        <p style={{color:'white',marginLeft:'28%'}}>Solutions crafted with care. Your success, our purpose.</p>
+        <div className="nav-right">
+          <Link to="/home" className='ss' >Home</Link>
+          <Link to="/servies" className='ss'>Service</Link>
+          <Link to="/aboutus" className='ss'>AboutUs</Link>
+          <Link to="/contactus" className='ss'>ContactUs</Link>
 
 
 
         </div>
       </div>
-  
-    <p className='responsive-img'></p>
+
+     <p className='responsive-img'></p>
 
 
 
@@ -48,5 +48,7 @@ function Servies() {
 }
 
 export default Servies;
+
+
 
 
