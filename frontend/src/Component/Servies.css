@@ -1,15 +1,4 @@
-/*  .responsive-img {
-z-index: -1;
-  width: 100%;
-  height: 448px;
-   object-fit: cover; 
-   margin-top: -20%;
-  position: relative;
-  opacity: 0.7;
-  background: url('../Navbar/Picture/serveimg.png') no-repeat center center;
-  background-size: cover; 
 
- }
 
 .rr {
 
@@ -21,68 +10,15 @@ z-index: -1;
 
   border-radius: 150px 0px 0px 150px;
   opacity: 0px;
-  margin-left: 26%
-}
-.ll {
-
-  width: 730px;
-  height: 296px;
-  gap: 0px;
-  border-radius: 0px 200px 200px 0px;
-  opacity: 0px;
-  background: #0000B3;
- z-index: 1;
-}
-.mb {
-  color: white;
-
-  font-family: inria serif;
-  font-size: 50px;
-  margin-left: 200px;
-  z-index: 1;
-} */
-/* 
-.ll {
-
-  z-index: 1;
-  width: 730px;
-  height: 296px;
-  gap: 0px;
-  border-radius: 0px 200px 200px 0px;
-  opacity: 0px;
-  background: #0000B3;
-
-}
-
-.mb {
-  color: white;
-  margin: 10%;
-  font-family: inria serif;
-  font-size: 50px;
-  margin-left: 200px;
-}
-
-.ll p {
-  color: white;
-
-  margin-top: -8%;
-  margin-left: 28%;
-}
-
-.jj {
-  width: 100%;
-  height: 439px;
-  top: 767px;
-  gap: 0px;
-  opacity: 0.46px;
-
-} */
+  margin-left: 27.1%;
+  margin-top: 6%;
+} 
 
 .text-overlay-container {
   position: relative;
 }
 
-/* Styling for the container with background image */
+
 .hh,
 .ff,
 .gf,
@@ -98,7 +34,7 @@ z-index: -1;
   position: relative;
 }
 
-/* Semi-transparent overlay */
+
 .overlay {
   position: absolute;
   top: 0;
@@ -106,7 +42,7 @@ z-index: -1;
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.5);
-  /* Adjust the color and opacity as needed */
+
   z-index: 1;
 }
 
@@ -207,4 +143,53 @@ z-index: -1;
     padding: 15px 0;
     font-size: 18px;
   }
+}
+
+.back{
+  background-image: url('../Navbar/Picture/serveimg.png');
+  background-size: cover;
+  
+  height: 550px;  
+  width: 100vw;   
+  margin: 0;      
+  padding: 0;     
+  overflow: hidden;
+}
+.lfg{
+  width: 730px;
+  height: 296px;
+ 
+  border-radius: 0px 200px 200px 0px;
+ 
+  background: #0000B3;
+ z-index: -1;
+}
+.bbnh{
+  color: white;
+
+  font-family: inria serif;
+  font-size: 50px;
+  margin-left: 200px;
+  
+  /* z-index: 1; */
+}
+.asdd{
+  margin-top: 15px;
+  display: flex;
+  padding-left: 70%;
+  margin-top: 5px;
+}
+.oopt {
+  padding: 50px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  font-family: inria serif;
+}
+
+.oopt:hover {
+  background: #014CA6;
+  border-radius: 6px;
 }
