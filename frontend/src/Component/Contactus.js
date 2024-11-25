@@ -2,18 +2,18 @@
 import React, { useState } from 'react';
 import './About.css';
 import { Link } from 'react-router-dom';
-import cd from '../Navbar/Picture/work.png';
+// import cd from '../Navbar/Picture/work.png';
 // import {  faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Foot  from '../Footer/Foot';
+import Foot from '../Footer/Foot';
 import { faMapMarkerAlt, faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 
-
+// import { Container } from 'react-bootstrap';
 
 
 
 function Contactus() {
- 
+
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [errors, setErrors] = useState({});
   const [responseMessage, setResponseMessage] = useState("");
@@ -38,7 +38,7 @@ function Contactus() {
     if (!validate()) return;
 
     try {
-      const response = await fetch("https://vishwasri-technology-backend.onrender.com", {
+      const response = await fetch("http://localhost:5000/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -58,86 +58,103 @@ function Contactus() {
 
   return (
     <div>
-      <div className='ll' >
-        <h1 className='mb'>We’re Here For You<br></br></h1>
+      {/* <div className='lf' >
+        <h1 className='bbn'>We’re Here For You<br></br></h1>
 
 
-        <p>"At Vishwasri Technologies, your success is our priority. Reach out to us anytime—our team is here to guide and support you every step of the way."</p>
-        <div className="nav-right" style={{ marginTop: '-190px', marginLeft: '500px' }}>
-          <Link to="/home" className='dd' >Home</Link>
-          <Link to="/servies" className='dd'>Service</Link>
-          <Link to="/aboutus" className='dd'>AboutUs</Link>
-          <Link to="/contactus" className='dd'>ContactUs</Link>
+        <p style={{color:'white',marginLeft:'28%'}}>"At Vishwasri Technologies, your success is our priority. Reach out to us anytime—our team is here to guide and support you every step of the way."</p>
+        <div className="asd" style={{ marginTop: '-190px', marginLeft: '500px' }}>
+          <Link to="/home" className='oop' >Home</Link>
+          <Link to="/servies" className='oop'>Service</Link>
+          <Link to="/aboutus" className='oop'>AboutUs</Link>
+          <Link to="/contactus" className='oop'>ContactUs</Link>
 
 
 
         </div>
-      </div>
-      <img src={cd} alt='Service' className="hg" />
-    
-       
+      </div> */}
+
+      {/* <img src={cd} alt='Service' className="hg" /> */}
+
+      <div className='background'>
+      <div className='lf'  >
         
-<div style={{height:'500px',width:'100%',marginTop:'30px',padding:'50px'}}>
+        <h1 className='bbn' >We’re Here For You<br></br></h1>
+
+
+        
+        <p style={{ color: 'white', marginLeft: '28%',marginTop:'40px' }}>"At Vishwasri Technologies, your success is our priority. Reach out to us anytime—our team is here to guide and support you every step of the way."</p>
+
+        <div className="asd" style={{ marginLeft: '500px',marginTop:'-130px' }}>
+          <Link to="/home" className='oop' >Home</Link>
+          <Link to="/servies" className='oop'>Service</Link>
+          <Link to="/aboutus" className='oop'>AboutUs</Link>
+          <Link to="/contactus" className='oop'>ContactUs</Link>
+          </div>
+        </div>
+      </div>
+
+      <div style={{ height: '500px', width: '100%', marginTop: '30px', padding: '50px' }}>
         <div className="contact-container">
-   
-      <div className="info-card" style={{boxShadow:'0px 0px 5px 1px black'}}>
-        <div className="info-item">
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" />
-          <p>1-10-74/B&C Flat No: T-402/B, Technopolis Galada Complex, Dwarka Das Colony, Begumpet 500016</p>
+
+          <div className="info-card" style={{ boxShadow: '0px 0px 5px 1px black' }}>
+            <div className="info-item">
+              <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" />
+              <p>1-10-74/B&C Flat No: T-402/B, Technopolis Galada Complex, Dwarka Das Colony, Begumpet 500016</p>
+            </div>
+            <div className="info-item">
+              <FontAwesomeIcon icon={faEnvelope} className="icon" />
+              <p>
+                VISHWASRITECHNOLOGIES<br />@vishcom.net
+              </p>
+            </div>
+            <div className="info-item">
+              <FontAwesomeIcon icon={faPhone} className="icon" />
+              <p>7330669716</p>
+            </div>
+          </div>
+
+
+          <div className="form-card">
+            <form onSubmit={handleSubmit}>
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                className="input"
+                value={formData.name}
+                onChange={handleChange}
+              />
+              {errors.name && <p className="error">{errors.name}</p>}
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                className="input"
+                value={formData.email}
+                onChange={handleChange}
+              />
+              {errors.email && <p className="error">{errors.email}</p>}
+
+              <textarea
+                name="message"
+                placeholder="Message"
+                className="textarea"
+                value={formData.message}
+                onChange={handleChange}
+              ></textarea>
+              {errors.message && <p className="error">{errors.message}</p>}
+
+              <button type="submit" className="button">Submit</button>
+            </form>
+            {responseMessage && <p className="response-message">{responseMessage}</p>}
+          </div>
         </div>
-        <div className="info-item">
-          <FontAwesomeIcon icon={faEnvelope} className="icon" />
-          <p>
-            VISHWASRITECHNOLOGIES<br />@vishcom.net
-          </p>
-        </div>
-        <div className="info-item">
-          <FontAwesomeIcon icon={faPhone} className="icon" />
-          <p>7330669716</p>
-        </div>
+
       </div>
-
-   
- <div className="form-card">
-          <form onSubmit={handleSubmit}>
-            <input
-              type="text"
-              name="name"
-              placeholder="Name"
-              className="input"
-              value={formData.name}
-              onChange={handleChange}
-            />
-            {errors.name && <p className="error">{errors.name}</p>}
-
-            <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              className="input"
-              value={formData.email}
-              onChange={handleChange}
-            />
-            {errors.email && <p className="error">{errors.email}</p>}
-
-            <textarea
-              name="message"
-              placeholder="Message"
-              className="textarea"
-              value={formData.message}
-              onChange={handleChange}
-            ></textarea>
-            {errors.message && <p className="error">{errors.message}</p>}
-
-            <button type="submit" className="button">Submit</button>
-          </form>
-          {responseMessage && <p className="response-message">{responseMessage}</p>}
-        </div>
-      </div>
-     
+      <Foot />
     </div>
-    <Foot />
-     </div>
   )
 }
 
