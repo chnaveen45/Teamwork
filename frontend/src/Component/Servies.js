@@ -1,9 +1,9 @@
 import React from 'react';
-// import serve from '../Navbar/Picture/serveimg.png';
+
 import './Servies.css'
-// import dd from '../Navbar/Picture/serveimg1.png';
+
 import { Link } from 'react-router-dom'
-// import '../Navbar/Picture/Style.css';
+
 import Foot  from '../Footer/Foot';
 
 function Servies() {
@@ -30,7 +30,7 @@ function Servies() {
         </div>
          <div className='qm'></div>
       </div>
-      {/* < img src={dd} alt='service1' className='rry'></img> */}
+  
   
 
 
