@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css';
 import { Link } from 'react-router-dom';
-import rq from '../Navbar/Picture/mk.png';
+// import rq from '../Navbar/Picture/mk.png';
 import ri from '../Navbar/Picture/stock.png';
 import rs from '../Navbar/Picture/goal.png';
 import Foot  from '../Footer/Foot';
@@ -10,7 +10,7 @@ function Aboutus() {
   return (
 
     <div>
-  <div className='ll' >
+  {/* <div className='ll' >
         <h1 className='mb'>About Us<br></br></h1>
 
         
@@ -25,7 +25,26 @@ function Aboutus() {
 
         </div>
       </div>
-      <img src={rq} alt='Service' className="hg" />  
+      <img src={rq} alt='Service' className="hg" />   */}
+
+<div className='backgrounds'>
+      <div className='lff'  >
+        
+        <h1 className='bbng' >We’re Here For You<br></br></h1>
+
+
+        
+        <p style={{ color: 'white', marginLeft: '28%',marginTop:'40px' }}>"At Vishwasri Technologies, your success is our priority. Reach out to us anytime—our team is here to guide and support you every step of the way."</p>
+
+        <div className="asdf" style={{ marginLeft: '500px',marginTop:'-130px' }}>
+          <Link to="/home" className='oops' >Home</Link>
+          <Link to="/servies" className='oops'>Service</Link>
+          <Link to="/aboutus" className='oops'>AboutUs</Link>
+          <Link to="/contactus" className='oops'>ContactUs</Link>
+          </div>
+        </div>
+      </div>
+
       <div style={{marginTop:'5%'}}>
  
         </div> 
