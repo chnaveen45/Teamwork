@@ -30,13 +30,13 @@ function Aboutus() {
 <div className='backgrounds'>
       <div className='lff'  >
         
-        <h1 className='bbng' >We’re Here For You<br></br></h1>
+        <h1 className='bbng' >About Us<br></br></h1>
 
 
         
-        <p style={{ color: 'white', marginLeft: '28%',marginTop:'40px' }}>"At Vishwasri Technologies, your success is our priority. Reach out to us anytime—our team is here to guide and support you every step of the way."</p>
+        <p style={{ color: 'white', marginLeft: '28%',marginTop:'40px' }}>"At our core, we believe in combining technology and <br></br>creativity to deliver solutions that make a difference."</p>
 
-        <div className="asdf" style={{ marginLeft: '500px',marginTop:'-130px' }}>
+        <div className="asdf" style={{ marginLeft: '500px',marginTop:'-105px' }}>
           <Link to="/home" className='oops' >Home</Link>
           <Link to="/servies" className='oops'>Service</Link>
           <Link to="/aboutus" className='oops'>AboutUs</Link>
