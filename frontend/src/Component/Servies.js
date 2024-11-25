@@ -10,28 +10,28 @@ function Servies() {
   return (
     <div>
 
-    //   <div className='ll'>
-    //     <h1 className='mb'>Our Expertise<br></br> Your Solutions</h1>
+      <div className='ll'>
+        <h1 className='mb'>Our Expertise<br></br> Your Solutions</h1>
 
 
-    //     <p>Solutions crafted with care. Your success, our purpose.</p>
-    //     <div className="nav-right" style={{ marginTop: '-210px', marginLeft: '500px' }}>
-    //       <Link to="/home" className='sy' >Home</Link>
-    //       <Link to="/servies" className='sy'>Service</Link>
-    //       <Link to="/aboutus" className='sy'>AboutUs</Link>
-    //       <Link to="/contactus" className='sy'>ContactUs</Link>
+        <p>Solutions crafted with care. Your success, our purpose.</p>
+        <div className="nav-right" style={{ marginTop: '-210px', marginLeft: '500px' }}>
+          <Link to="/home" className='sy' >Home</Link>
+          <Link to="/servies" className='sy'>Service</Link>
+          <Link to="/aboutus" className='sy'>AboutUs</Link>
+          <Link to="/contactus" className='sy'>ContactUs</Link>
 
 
 
-    //     </div>
-    //   </div>
+        </div>
+      </div>
   
-    // <p className='responsive-img'></p>
+    <p className='responsive-img'></p>
 
 
 
 
-    //   <img src={dd} alt='service1' className='rr'></img>
+      <img src={dd} alt='service1' className='rr'></img>
 
 
       <div className="text-overlay-container" style={{ marginTop: '15%' }}> <div className="hh"> <div className="overlay"></div> <h1 style={{ fontSize: '50px', fontFamily: 'inria serif', color: '#22177A', paddingBottom: '10px', marginLeft: '70px' }}><b>Web Development</b></h1> <p className="er" style={{ paddingTop: '10px', fontFamily: 'inria serif' }}>With a focus on functionality and user experience, our web development team creates responsive, secure, and visually appealing websites. From e-commerce platforms to corporate websites, we ensure that each site reflects the brand’s identity while meeting the latest web standards and technological advancements.</p> </div> </div>
