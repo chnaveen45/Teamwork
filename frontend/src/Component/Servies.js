@@ -26,9 +26,9 @@ function Servies() {
           <Link to="/aboutus" className='oopt'>AboutUs</Link>
           <Link to="/contactus" className='oopt'>ContactUs</Link>
           </div>
-      <div className='qm'></div>
+     
         </div>
-        
+         <div className='qm'></div>
       </div>
       {/* < img src={dd} alt='service1' className='rry'></img> */}
   
